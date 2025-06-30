@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #6dd5fa, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h1, h5 {
+    font-weight: bold;
+  }
+  
+  #status {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
